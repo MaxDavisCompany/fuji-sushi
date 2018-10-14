@@ -1,0 +1,37 @@
+.section-title {
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-align: center;
+
+  strong {
+    font-weight: 500;
+  }
+
+  &--white {
+    color: $mainPurple;
+    position: relative;
+    bottom: 35px;
+
+    @mixin atMedium {
+      color: #fff;
+    }
+  }
+
+  &--purple {
+    color: $mainPurple;
+    position: relative;
+    bottom: 35px;
+  }
+
+  &--less-margin {
+    margin-bottom: -1.3rem;
+    margin-top: 0;
+  }
+
+
+  &__icon {
+    margin-right: .5rem;
+    transform:  translateY(20%);
+
+  }
+}
